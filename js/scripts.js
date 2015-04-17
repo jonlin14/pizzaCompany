@@ -1,7 +1,4 @@
-//var choice = { 'cheese': 7.50, 'pepperoni': 10.00 };
-
 var Pizza = {
-
                 init: function() {
                 this.price = null;
                 this.name = null;

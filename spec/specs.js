@@ -1,6 +1,5 @@
 describe('pizzaPrice', function() {
     var testPizza = Object.create(Pizza);
-//    var choice = Object.create(Choice);
     beforeEach(function () {
         testPizza.init();
     }); // before each end
