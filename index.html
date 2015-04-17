@@ -14,22 +14,38 @@
             </div>
             <div class = "row">
                 <div class = "12 columns">
+                    <div class = "form1">
+                    <form id = "new_Order" class = "u-full-width">
+
+                        <button type ="submit" class= "button button-primary">Order Now!</button>
+                    </form>
+                    </div>
+                    <div class = "form2">
                     <form id = "pizza" class = "u-full-width">
-                        <label for ="pizza_Choice"> Select your Pizza!</label>
+                        <label for ="pizza_Choice">Select your Pizza!</label>
                         <select id ="pizza_Choice" class = "u-full-width">
-                            <option value = "none">Select</option>
+                            <option value = "">Select</option>
                             <option value = "Cheese">Cheese</option>
                             <option value = "Pepperoni">Pepperoni</option>
                         </select>
-                        
+                        <label for="pizza_Amount">Choose How Many!</label>
+                        <select id="pizza_Amount" class = "u-full-width">
+                            <option value = 0>0</option>
+                            <option value = 1>1</option>
+                            <option value = 2>2</option>
+                            <option value = 3>3</option>
+                        </select>
 
-                        <input type = "submit" class="button button-primary"></button>
+                        <input type = "submit" class="button button-primary" id="lastInput">
                     </form>
+                </div>
                 </div>
             </div>
                 <div class ="row">
                 <div class ="container-flex">
                     <div id = "images">
+                    </div>
+                    <div id = "subtotal">
                     </div>
 
                     <div class = "one-half column" id = "result">
