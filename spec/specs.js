@@ -8,15 +8,15 @@ describe('pizzaPrice', function() {
             testPizza.init();
             expect(testPizza.price).to.equal(null);
         }); //it end
-        it('it should return a price of 7.50 for cheese', function() {
+        it('it should return a price of 7.50 for Cheese', function() {
             testPizza.init();
-            testPizza.setName('cheese');
+            testPizza.setName('Cheese');
             testPizza.setPrice();
             expect(testPizza.price).to.equal(7.50);
         }); //it end
-        it('it should return a price of 10.00 for pepperoni', function() {
+        it('it should return a price of 10.00 for Pepperoni', function() {
             testPizza.init();
-            testPizza.setName('pepperoni');
+            testPizza.setName('Pepperoni');
             testPizza.setPrice();
             expect(testPizza.price).to.equal(10.00);
         }); //it end
