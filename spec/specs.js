@@ -1,5 +1,6 @@
 describe('pizzaPrice', function() {
     var testPizza = Object.create(Pizza);
+//    var choice = Object.create(Choice);
     beforeEach(function () {
         testPizza.init();
     }); // before each end
@@ -14,5 +15,10 @@ describe('pizzaPrice', function() {
             testPizza.init()
             expect(testPizza.name).to.equal(null);
         }); //it end
-    }); //pizzaNameSet end
+        it('it should return a pizza name of cheese', function() {
+            testPizza.init()
+            testPizza.setName('cheese')
+            expect(testPizza.name).to.equal('cheese');
+        });
+    }); //pizzaNameSet describe end
 }); // parent describe end
