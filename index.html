@@ -10,25 +10,35 @@
     <body>
         <div class = "container">
             <div class ="row">
-                <h1>It's not Digiorno's, It's Johns!</h1>
+                <h1>It's not Digiorno's it's Papa Johns!</h1>
             </div>
             <div class = "row">
-                <div class = "container-flex">
+                <div class = "12 columns">
                     <form id = "pizza" class = "u-full-width">
                         <label for ="pizza_Choice"> Select your Pizza!</label>
                         <select id ="pizza_Choice" class = "u-full-width">
-                            <option>Cheese</option>
-                            <option>Pepperoni</option>
+                            <option value = "none">Select</option>
+                            <option value = "Cheese">Cheese</option>
+                            <option value = "Pepperoni">Pepperoni</option>
                         </select>
+                        
 
                         <input type = "submit" class="button button-primary"></button>
                     </form>
                 </div>
             </div>
-            <div class = "row">
-                    <div class = "result">
-                        <p>The price is <span class = "price"></span></p>
+                <div class ="row">
+                <div class ="container-flex">
+                    <div id = "images">
                     </div>
+
+                    <div class = "one-half column" id = "result">
+                        <div class ="container-flex">
+                        <p id = "resultP">The price is <span class = "price"></span></p>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
         </div> <!-- parent div end -->
     </body>
