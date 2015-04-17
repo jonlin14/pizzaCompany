@@ -7,11 +7,17 @@ h1 {
     background-color:yellow;
 }
 
+label{
+    font-size: 20px;
+    color: yellow;
+}
+
 p {
     margin: auto;
     width: 200px;
     font-size: 20px;
     border:solid;
+    color: orange;
 }
 
 img {
