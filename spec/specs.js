@@ -23,6 +23,7 @@ describe('pizzaPrice', function() {
         it('it should return a price of 7.50 for cheese', function() {
             testPizza.init();
             testPizza.setName('cheese');
+            testPizza.setPrice();
             expect(testPizza.price).to.equal(7.50);
         });//it end
     }); //pizzaNameSet describe end
